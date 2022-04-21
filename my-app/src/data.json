@@ -1,0 +1,17 @@
+[
+  {
+    "username": "Ubaid",
+    "salary": 20000,
+    "designation": "MERN stack dev"
+  },
+  {
+    "username": "Wahid",
+    "salary": 40000,
+    "designation": "Team lead"
+  },
+  {
+    "username": "Musaib",
+    "salary": 30000,
+    "designation": "Java full stack dev"
+  }
+]

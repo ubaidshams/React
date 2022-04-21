@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #000000f1; */
+  /* background-color: rgba(255, 255, 255, 0.596); */
+  /* color: #fff; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* backdrop-filter: blur(50%); */
+}
+
+/* section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section article {
+  width: 90%;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+button:hover {
+  background-color: black;
+  color: yellow;
+} */
+/* 
+#userSec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#userSec article {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.userBlock {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  background-color: black;
+  border-radius: 20px;
+}
+.userBlock h3 {
+  color: cornflowerblue;
+  margin: 10px;
+}
+.userBlock p {
+  color: darkgoldenrod;
+  margin: 10px;
+}
+
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+} */
+
+.authBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.authBlock article {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+}
+.authBlock form {
+  background-color: #333;
+  padding: 10px;
+  width: 65%;
+  box-shadow: 0px 0px 20px 2px black;
+}
+.authBlock form input {
+  width: 100%;
+  background: #f8f8f880;
+  border: 1px solid #ffc10742;
+  color: #333;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.authBlock form button {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  color: #111;
+  background-color: rgba(255, 255, 0, 0.507);
+}
+
+.authBlock form label {
+  font-weight: bold;
+  padding: 10px 0;
+  color: #030303;
+  font-size: 1.1rem;
+}
+.authBlock h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 0;
+  color: #f3f3f3;
+  font-weight: bold;
+}
+.dob {
+  display: flex;
+  flex-direction: column;
+}
+.dob .dob-inner {
+  display: flex;
+  column-gap: 20px;
+}
+.dob .dob-inner select {
+  background-color: transparent;
+  border: 1px solid #ffc10742;
+  /* color: #f2f2f2ff; */
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+select option {
+  background-color: #333;
+}
+.gender-group {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.gender-group .gender {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.gender-group .gender .form-group {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control select {
+  width: 100%;
+  background: #f8f8f880;
+  border: 1px solid #ffc10742;
+  color: #f3f3f3;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.skills {
+  display: flex;
+  /* column-gap: 10px; */
+  justify-content: space-between;
+}
+.skills .form-control {
+  display: flex;
+  align-items: center;
+  /* column-gap: 10px; */
+}
+table {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+table thead {
+  background-color: cornflowerblue;
+}
+thead th {
+  padding: 15px;
+}
+tbody {
+  background-color: darksalmon;
+}
+tbody td {
+  padding: 10px;
+  text-transform: capitalize;
+}
